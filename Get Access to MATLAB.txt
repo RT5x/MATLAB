@@ -1,0 +1,3 @@
+Many Universities and Institutions Offer Free MATLAB Software.
+Check https://www.mathworks.com/academia/tah-support-program/eligibility.html to verify if this is the case, and to claim your free student version. 
+If not, the full version of MATLAB can be purchased for personal use: https://matlab.mathworks.com/
