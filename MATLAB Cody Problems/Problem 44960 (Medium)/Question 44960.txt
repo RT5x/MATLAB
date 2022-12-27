@@ -1,0 +1,19 @@
+Each column (except last) of matrix X contains students' scores in a course assignment or a test. The last column has a weighted combination of scores across all the assignments and tests.
+Replace the elements in the last column of this matrix with a GPA calculated based on the following scale:
+ Score      GPA    
+91 - 100   3 - 4      
+81 - 90    2 - 3      
+71 - 80    1 - 2      
+61 - 70    0 - 1      
+Below 60     0
+Assume that no student in this class has scored below 60. Also note that the mapping in the range [60, 100] is linear.
+See <https://www.mathworks.com/help/matlab/ref/rescale.html>
+Example
+Input:
+   100  90  95  95
+    70  50  60  60
+    80  70  90  80
+Output:
+   100  90  95  3.5
+    70  50  60  0.0
+    80  70  90  2.0
