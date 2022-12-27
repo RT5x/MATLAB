@@ -1,0 +1,3 @@
+The file cars.mat contains a table named cars with variables Model, MPG, Horsepower, Weight, and Acceleration for several classic cars.
+Load the MAT-file. Given an integer N, calculate the output variable mpg.
+Output mpg should contain the MPG of the top N lightest cars (by Weight) in a column vector.
