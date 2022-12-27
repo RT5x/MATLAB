@@ -1,0 +1,20 @@
+Given two input matrices, x and y, check if their inner dimensions match.
+If they match, create an output variable z which contains the product of x and y
+Otherwise, z should contain a custom string message.
+
+Example:
+x = [1 2;3 4]
+y = [5;6]
+z = [17;39]
+x = [1 2 3;4 5 6]
+y = [2 5;3 6]
+z = "Have you checked the inner dimensions?"
+OR
+z = "The inner dimensions are 3 and 2. Matrix multiplication is not possible"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE - An example of combining numbers and strings together is shown below:
+x = "The sum of " + 4 + " and " + 3 + " equals " + 7
+
+x = 
+
+      "The sum of 4 and 3 equals 7"
