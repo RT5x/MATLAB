@@ -1,0 +1,5 @@
+Given a matrix hw (height and weight) with two columns, calculate BMI using these formulas:
+  1 kilogram = 2.2 pounds
+  1 inch = 2.54 centimeters
+  BMI = weight(kg) / [height(m)]^2
+The first column is the height in inches. The second column is the weight in pounds.
