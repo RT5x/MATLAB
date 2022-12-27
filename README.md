@@ -1,4 +1,4 @@
-# MATLAB-Courses
+# MATLAB
 Project files & Example Code for various MATLAB courses, as well as selected problems & solutions from MATLAB Cody.
 
 
