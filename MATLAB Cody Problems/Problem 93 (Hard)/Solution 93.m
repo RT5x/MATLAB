@@ -1,5 +1,4 @@
-s1 = 'creation'
-s2 = 'creations'
+
 function d = levenshtein(s1,s2)
 l1 = length(s1);
 l2 = length(s2);
