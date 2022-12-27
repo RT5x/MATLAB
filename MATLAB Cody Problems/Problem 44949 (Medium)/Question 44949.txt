@@ -1,0 +1,5 @@
+Given three input variables:
+  hotels - a list of hotel names
+  ratings - their ratings in a city
+  cutoff - the rating at which you would like to cut off
+return only the names of those hotels with a rating of cutoff value or above as a column vector of strings good.
