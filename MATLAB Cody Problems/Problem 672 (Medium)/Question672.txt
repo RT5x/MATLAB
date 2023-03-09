@@ -1,0 +1,6 @@
+Given a vector a, find the number(s) that is/are repeated consecutively most often. For example, if you have
+a = [1 2 2 2 1 3 2 1 4 5 1]
+The answer would be 2, because it shows up three consecutive times.
+If your vector is a row vector, your output should be a row vector. 
+If your input is a column vector, your output should be a column vector. You can assume there are no Inf or NaN in the input. 
+Super (albeit non-scored) bonus points if you get a solution that works with these, though.
