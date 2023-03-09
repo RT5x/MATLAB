@@ -16,26 +16,18 @@ end
 k = size(a);
 
 
-r = [];
-newvec = newvec(newvec ~= 0)
 
+newvec = newvec(newvec ~= 0);
+z = histc(newvec, unique(newvec));
+z1 = newvec(z);
 
-for i = 1:length(newvec)-1
-    if newvec(i+1) ~= newvec(i)
-        r(i) = newvec(i);
-    end
-end
-r = r(r~=0)
 if isempty(newvec)
     val = a
 else
-   val = r
+   val = z1;
 end
 
 
 if k(1) ~= 1
     val = val'
 end
-
-
-%val_correct = [5 5]
