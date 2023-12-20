@@ -1,0 +1,15 @@
+Satellite and Space Engineering - Problem #5
+
+This is part of a series of problems looking at topics in satellite and space communications and systems engineering.
+
+Many satellites orbit the Earth along an elliptical path, where the Earth is centred at one of the focii of the ellipse. Typically we might know the apogee (maximum distance of the satellite from the Earth's surface) and perigee (smallest distance from the Earth) of the satellite orbit. In order to model the orbit, however, we often need to know the parameters of the orbit ellipse, i.e. the semi-major axis (half the maximum dimension of the ellipse), the semi-minor axis (half of the minimum dimension) and the eccentricity (a measure of how circular the orbit is).
+
+You are given the apogee altitude (in km) and the perigee altitude (in km). Calculate the semi-major axis length (in km), the semi-minor axis length (in km) and the eccentricity (as a ratio).
+
+You should take the radius of the Earth to be 6371km.
+
+Example 1: Assume that the International Space Station is in an orbit with (roughly) an apogee of 381 km and a perigee of 372 km. It therefore has a semi-major axis of 6,747.5 km, a semi-minor axis of 6,747.498 km and an eccentricity of 0.000669 (i.e. its orbit is virtually circular).
+
+Example 2: A 'Molnya' orbit is a highly-eliptical inclined orbit with good coverage over high and low latitudes. It has (roughly) an apogee of 39,700 km and a perigee of 600 km. It has a semi-major axis of around 26,500 km, a semi-minor axis of around 17,900 km and an eccentricity of 0.737.
+
+Some future problems in this series will build on work done in previous problems, so if you get a working solution I suggest you hang onto the code!
