@@ -1,0 +1,7 @@
+Given the vector A, return B in which all numbers in A are doubling. So for:
+
+A = [ 1 5 8 ]
+
+then
+
+B = [ 1 1 5 5 8 8 ]
