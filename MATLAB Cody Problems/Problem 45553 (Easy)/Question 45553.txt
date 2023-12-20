@@ -1,0 +1,8 @@
+Satellite and Space Engineering - Problem #4
+This is part of a series of problems looking at topics in satellite and space communications and systems engineering.
+Determine the altitude (height above the surface of the Earth) for a satellite in a circular Earth orbit with a known orbit period.
+You are given the satellite orbit period (in s). Calculate the orbit altitude (in km).
+You should take the radius of the Earth to be 6371km, the mass of the Earth to be 5.9722e24 kg and Newton's Universal Gravitational Constant to be 6.6743015e-11 m3/kg/s.
+Hints: 1) Newton's Law of Universal Gravitation will tell you the force between the satellite and the Earth (see: <https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation>); 2) The centripetal force maintaining the orbit (see: <https://en.wikipedia.org/wiki/Centripetal_force#Formula>) should be equal to the gravitational force; 3) Hmmm... but what about the mass of the satellite?
+Example: The altitude of a geostationary satellite, with orbit period 86164.0905 s is around 35,793 km.
+Some future problems in this series will build on work done in previous problems, so if you get a working solution I suggest you hang onto the code!
