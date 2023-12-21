@@ -1,0 +1,14 @@
+Calculate the mechanical advantage of a gear train.
+
+The mechanical advantage of a gear couple is given by MA = T_o/T_i where T_x is the number of gear teeth on gear x, o=output, and i=input. For stacked gear couples the overall mechanical advantage is the product of the individual mechanical advantages.
+
+The number of teeth in each gear are given in a 2 x n matrix where n = number of gear couples and the output gears are in the first row.
+
+Example:
+
+ T_i1 = 5; T_o1 = 15;
+ T_i2 = 8; T_o2 = 12;
+ T_i3 = 6; T_o3 = 24;
+ gears = [T_o1 T_o2 T_o3
+          T_i1 T_i2 T_i3]
+ MA = (15/5)*(12/8)*(24/6) = 3*1.5*4 = 18
