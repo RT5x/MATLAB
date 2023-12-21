@@ -1,0 +1,13 @@
+The density of snow depends on the amount of liquid water it contains:
+Dry Snow is about 50 kg/m^3
+Wet Snow is about 200 kg/m^3
+A typical residential property roof becomes stressed at 98.7 kg/m^2 (20 pounds per square foot) and could collapse at about 145 kg/m^2 (30 pounds per square foot) load (weight) before it collapses.  A deck is typically designed (by code) to withstand 195 to 293 kg/m^2 (40 to 60 pounds of snow per square foot).
+For this script, assume that existing snow cover has the density of wet (saturated) snow and that the recent snowfall (past 24 hours and future precipitation) due to a current, steady snowstorm has the density of dry snow.  Also assume that the snowfall is accumulating completely on the roof/deck structure and none is blown, falls, melts, etc. during the snowstorm. 
+Write a script that has the following input parameters:
+Depth of old, accumulated, saturated snow that existed on the roof at snowstorm onset in centimeters
+Rate of snowfall accumulation in current storm in cm/hr.
+Duration of the snowstorm in decimal hours
+And the following output parameters with some nominal hard-wired stress thresholds:
+Load after the snowstorm in kg/m^2
+Flag of Roof Structural Status: 0=no concern, 1=stressed (> 98 kg/m^2), 2=might collapse (>145 kg/m^2)
+Flag of Deck Structural Status: 0=no concern, 1=stressed (> 195 kg/m^2), 2=might collapse (>293 kg/m^2)
