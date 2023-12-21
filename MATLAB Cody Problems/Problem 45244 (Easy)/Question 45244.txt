@@ -1,0 +1,2 @@
+For many families at Christmas, each family member gives 1 present to every other family member. The main exception is that children under the age of 16 do not contribute any presents. If there is only 1 child in the family, then that child is considered "spoilt" and receives 2 presents from each adult instead.
+Given the size of a family (Nf) and the number of children under the age of 16 (Nc), find the number of presents under the Christmas tree!
