@@ -1,0 +1,18 @@
+Traditionally there are twelve days of Christmas to celebrate ("Twelvetide"), typically starting with Christmas Day (25 December) as the "First Day of Christmas" and finishing on the 5th of January.
+
+In the traditional Christmas carol, helpfully entitled The Twelve Days of Christmas, the singer recounts receiving gifts on each day, sent to them by their True Love.
+
+On the first day, they receive one gift (1 × "partridge in a pear tree").
+
+On the second day they receive two new gifts (2 × "turtle doves") plus a repeat of each gift corresponding to the previous days — in this case meaning plus one repeat gift (1 × "partridge in a pear tree"). Therefore they have accumulated a total of four gifts: one from the first day, and three from the second day.
+
+On the third day they receive three new gifts (3 × "French hens") plus a repeat of each gift corresponding to the previous days — in this case meaning plus three repeat gifts (1 × "partridge in a pear tree" and 2 × "turtle doves"). By now they have accumulated a total of ten gifts: one from the first day, three from the second day, and six from the third day.
+
+This continues until the twelfth day (the last day of Christmas).
+
+For this problem you must calculate the cumulative total of all gifts received up to the specified day that is provided as input. (Day 1 is the 25th of December, day 2 is the 26th of December, and so on.)
+
+EXAMPLE
+
+ day = 2
+ accumulatedGifts = 4
