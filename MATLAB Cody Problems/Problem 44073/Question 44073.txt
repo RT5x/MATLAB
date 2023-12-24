@@ -1,0 +1,3 @@
+Starting from an equilateral triangle with side 's', what is the area and perimeter of Koch snowflake at n'th recursive iteration?
+
+For given 's' and 'n' as function input, return 'Area' and 'Perimeter' of snowflake. (round to nearest integer for simplicity)
