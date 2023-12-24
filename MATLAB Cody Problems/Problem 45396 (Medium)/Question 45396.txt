@@ -1,0 +1,6 @@
+A tubesheet is a metal plate used to hold multiple tubes in place in a shell-and-tube heat exchanger. In any industrial plant, heat exchangers are used to transfer heat from one stream to another, such as for cooling or heating.
+In this problem, you are given the diameter D of a metal plate which is a perfect circle. We need to punch holes in this plate where the tubes can fit in. This is done by placing the plate on a 2-D coordinate system where the center of the circle lies in the origin. 
+As seen in the figure below, the coordinate system can be imagined as being made of square cells. A hole can be punched in a square cell if and only if it lies completely inside the circular metal plate. Can you help count the number of holes we can punch, given the plate's diameter?
+
+Write a function that accepts a floating-point value, D. Output the maximum number of holes that can be punched on a plate of diameter D. You are ensured that 1 <= D <= 50.
+In the examples above, we can see that we can punch 16 holes when D = 6, and 60 holes when D = 10.
