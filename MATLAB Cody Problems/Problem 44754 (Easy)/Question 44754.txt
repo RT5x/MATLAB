@@ -1,0 +1,3 @@
+. Your job is to figure out just how many gifts you would need to get your true love if Christmas were X days, instead of 12.
+
+The same pattern of gift giving will follow, so you would get a single partridge in a pear tree on days one through X, two turtle doves on days two through X, three French hens on days three through X, and so on all the way up to X special gifts only on day X.
