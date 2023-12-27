@@ -1,0 +1,1 @@
+Get the Minkowski distance between the vectors. Round the result to the 4th decimal.
