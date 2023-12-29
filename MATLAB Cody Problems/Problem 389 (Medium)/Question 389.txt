@@ -1,0 +1,5 @@
+Given a matrix M, return a vector y such that for each k
+
+(y(k) is the Euclidean norm of the k-th column of M)
+
+EDIT: changed the test case so that proper handling of complex values is required.
