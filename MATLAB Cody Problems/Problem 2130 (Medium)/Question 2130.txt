@@ -1,0 +1,7 @@
+You decide whether any given matrix is an orthonormal matrix or not.
+
+If each column in a matrix is perpendicular to the others, the matrix is orthonormal. Also each column in the matrix must be a unit vector.
+
+Example
+
+ a = [1 0 0; 0 1 0; 0 0 1] is an orthonormal matrix 
