@@ -1,0 +1,15 @@
+Input is a matrix. Output is a true or false statement (1 or 0). Return true if input is a valid Analytic Hierarchy Process evaluation matrix.
+
+In a valid AHP matrix;
+
+All diagonal elements should be 1
+Lower triangular part should be element-wise reciprocals of upper triangular part
+Square matrix
+For example
+
+   [ 1   2
+    1/2  1]  -  > True
+   [1 5
+    2 1 ]   -  > False
+   [1 5 
+   1/5 2]   -  > False
