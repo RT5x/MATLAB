@@ -1,0 +1,3 @@
+Given a square matrix, a, determine whether it is orthogonal.
+INPUT: a, a n x n matrix
+OUTPUT: true or false
