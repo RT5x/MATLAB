@@ -1,0 +1,2 @@
+Following on Combined Ages 2, you will now be provided with age sums for n individuals where n ≥ 3. 
+The sums will be provided in sorted order and will be for n–1 individuals (e.g., A+B+C, A+B+D, A+C+D, B+C+D).
