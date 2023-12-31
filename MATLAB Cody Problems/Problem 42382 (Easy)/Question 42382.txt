@@ -1,0 +1,7 @@
+You have probably seen the common riddle wherein combined ages are provided and you must determine the individual ages. For example: If the ages of Alex and Barry sum to 43, the ages of Alex and Chris sum to 55, and the ages of Barry and Chris sum to 66, what are their individual ages?
+
+For this problem, we'll assume that the three individuals are represented by A, B, and C, whereas the sums are AB, AC, and BC:
+
+A+B = AB (= 43)
+A+C = AC (= 55)
+B+C = BC (= 66)
