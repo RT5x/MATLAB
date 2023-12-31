@@ -1,0 +1,1 @@
+Write a function to determine whether or not the matrix is a projector. 
